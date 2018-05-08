@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>ARN Application</title>
+<title>Profile details</title>
 
 	<link rel="stylesheet" href="furnace.min.css">
 	<link rel="stylesheet" href="lead.css">
@@ -19,14 +19,16 @@
 <main class="au-grid">
 	
 	
+	
 	<div class="header">
 		<div class="container">
 			<div class="row">
 					<div class="logo">
 						<a href="arnindex.html"><img src="CASALOGO-white-i.svg" width="256"></a>
 					</div>
-					<div class="user">
-					
+									<div class="user">
+						<div class="au-body au-body--dark">
+						   <a class="au-btn au-btn--dark" href="signed-out.html">Sign out</a></div>
 					</div>
 			  
 			  
@@ -34,54 +36,61 @@
 		</div>
 	</div>
 	
-
-		<div class="banner">
+	<div class="banner">
 	<div class=container>	
 		<style>
 			.banner {padding-left: 25px;}
+			.banner {padding-top: 10px;}
+			.banner {padding-bottom: 10px;}
 		
 		</style>
 		This service is currently in beta, we encourage you to <a href="feedback.html">provide feedback</a>
 	</div>
 	</div>
-	
+			
+			
 	<div class="body">
 		<div class="container">
 			
 			<div class="col-xs-6">
 			<header class="au-header" role="banner">
-				<h1 class="au-header-heading">Problems signing in?</h1>
+				<h1 class="au-header-heading">Profile details</h1>
 			</header>
 
-			<form>
-				<p>If you're having problems signing in, you must first verify your email address, which will allow you to then reset your password and access your account.</p>
-				<br>
-				
-				<label for="text-input-block">Email address</label>
-				<input class="au-text-input au-text-input--block" name="text-input-block" id="text-input-block" type="text" value="bob@bobsflyingschool.com">
-				<br>
-												<label for="text-input-block">Verification code</label>
-				<input class="au-text-input au-text-input--block" name="text-input-block" id="text-input-block" type="text" value="">
-				
-				<br />
-				
-				
-				<a class="au-btn" href="arn-problems3.html">Verify code</a>
-				<br><br>
-								<a class="au-btn au-btn--secondary" href="#.html">Send new code</a>
-				
-				<br />
-				
+<div class="au-body">
+  <h4>Account settings</h4>
+	<p><a href="update-password.html">Update password</a></p>				
 
-			</form>	
+<br />
 				
-				
-								
-				
-		
+	<h4>Personal details</h4>
+	<p><strong>Name</strong></p>Bob Furzer<br>		
+
+<br />
+	
+  <h4>Contact details</h4>
+	<p><strong>Email</strong></p> bob@bobsflyingschool.com.au<br>
+	
+	
+	
+		<p><strong>Mobile</strong><br /> <a href="add-phone.html">Add mobile number</a><br></p>
+	<p><strong>Address</strong><br /><a href="add-address.html">Add address</a>
+	
+	
+	</p>
+	<!--
+	Phone: -<br>
+	Mobile: 0412 345 678</p>			
 			
-				
-			</div>
+    <p><strong>Residential Address</strong><br>
+		16 Walpole Avenue<br>
+		Wangoom<br>
+		VIC 3279<br>
+		Australia<br></p>
+	<p><strong>Postal Address:</strong><br>
+	Same as Residential</p>			
+		-->			
+</div>
 			
 			
 			<!--
